@@ -228,3 +228,88 @@ iframe {
   }
 }
 /* ********* */
+
+
+
+h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  
+}
+
+nav.desktop{
+	
+  margin-left: 58%;
+  
+}
+
+nav.desktop ul{
+	list-style-type: none;
+  
+}
+
+nav.desktop li{
+	font-size: 17px;
+	display: inline-block;
+	margin:  10px;
+	font-weight: lighter;
+  
+}
+
+
+nav.desktop a{
+	color: rgb(245, 240, 240);
+	text-decoration: none;
+}
+
+nav.mobile, nav.mobile ul{
+	display: none;
+  
+}
+
+@media screen and (max-width: 700px){
+	nav.desktop{
+		display: none;
+	}
+	nav.mobile{
+		display: block;
+	}
+	.mobile-nav-btn{
+		position: relative;
+		top: 20px;
+		
+		
+		color: white;
+		cursor: pointer;
+    
+	}
+	nav.mobile ul{
+		position: absolute;
+		list-style-type: none;
+		top: 90px;
+		left: 0;
+		text-align: center;
+		width: 100%;
+		background-color: rgba(0, 0, 0, 0.801);
+		z-index: 5;
+	}
+	nav.mobile li{
+		margin-top: 10px;
+		border-bottom: 1px solid #ccc;
+		font-size: 16px;
+    
+	}
+	nav.mobile a{
+		text-decoration: none;
+		color: #f1f1f1;
+		display: block;
+		margin-bottom: 10px;
+    
+	}
+}
+
+header{
+  background-image: url(./img/fundo2.jpg);
+}
+
+
